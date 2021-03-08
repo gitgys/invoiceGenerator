@@ -1,0 +1,115 @@
+/* Style for header */
+header{
+  border-bottom: solid;
+  height: 200px;
+  padding: 40px;
+  border-width: 1px;
+  display: block;
+}
+
+input, select{
+  width: 250px;
+}
+.header-info, .invoice{
+  display: inline-block;
+}
+
+.invoice{
+  float: right;
+}
+
+.header-info{
+  float: left;
+  margin-left: 20px;
+}
+
+.name-info, .date-info{
+    display: block;
+}
+
+.name-info{
+  float: right;
+}
+
+#input-name, #input-dueDate{
+  margin-left: 20px;
+}
+
+#label-name, #input-name{
+  margin-bottom: 20px;
+}
+
+
+/* Style for addreas info */
+.addresInfo{
+  display: block;
+  padding: 40px;
+
+}
+
+h5{
+  padding-left: 20px;
+}
+
+.labels-address, .input-address{
+  display: inline-block;
+  padding: 20px;
+}
+
+.labels-address{
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#label-street, #label-city, #label-state{
+  display: block;
+  margin-bottom: 20px;
+}
+
+#input-street, #input-city, #input-state{
+  margin-bottom: 14px;
+}
+
+/* Style for products */
+.products{
+  padding: 40px;
+  display: block;
+}
+
+
+.product, .quantity, .description{
+  display: inline-block;
+  width: 33%;
+  padding-left: 20px;
+}
+
+.label-product, .input-product, .label-quantity, .input-quantity, .label-description, .input-description{
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Style for footer */
+
+.add-and-total{
+  margin: 60px;
+}
+
+.button-add, .total{
+  display: inline-block;
+}
+
+.total{
+  float: right;
+}
+
+.button-save{
+  display: block;
+  float: right;
+  margin-right: 60px;
+  margin-bottom: 60px;
+}
+
+.product-item{
+  margin-bottom: 20px;
+}
